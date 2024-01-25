@@ -29,26 +29,29 @@ Data Ingestion - This is the first step in the project where we are ingesting th
 
 ![image](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/assets/29482753/87df4707-b2e9-44dc-afdb-382991cb4304)
 
-
-Data Storage - This is the immediate step after our data ingestion step through Azure Data Factory. We configured our sink as Azure Data Lake Storage Gen2 where the data will come and load into raw-data folder and the data will be in the exact same format as the source. And we have total three layers build on the storage account - bronze layer that will contain the data in its raw format, silver layer that will have transformed data like refining schema, removing null and duplicates, altering table structures etc. and gold layer that will store all the aggregated data that is built on our transformed data from the silver layer. 
+**Data Storage** - This is the immediate step after our data ingestion step through Azure Data Factory. We configured our sink as Azure Data Lake Storage Gen2 where the data will come and load into raw-data folder and the data will be in the exact same format as the source. And we have total three layers build on the storage account - bronze layer that will contain the data in its raw format, silver layer that will have transformed data like refining schema, removing null and duplicates, altering table structures etc. and gold layer that will store all the aggregated data that is built on our transformed data from the silver layer. 
 
 ![image](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/assets/29482753/d7a0b572-0b28-4a50-877b-503fb15fdfe4)
 
-
-DATA TRANSFORMATION - After the preliminary data movement is done and we finally have the data on cloud, we move on to the next step of transforming and cleaning the data to make it more usable and structured. In this step we are using Azure Databricks build on Apache Spark and we are using PySPark to write the transformations in the Notebook. We can then execute the Notebook that will automatically spin up the spark cluster and provide you the necessary transformations. But before transformations, we have to provide necessary permissions for our workspace to conncet with storage account and once that is ensured, we then have to mount the data and start with our code.
+**Data Transformation** - After the preliminary data movement is done and we finally have the data on cloud, we move on to the next step of transforming and cleaning the data to make it more usable and structured. In this step we are using Azure Databricks build on Apache Spark and we are using PySPark to write the transformations in the Notebook. We can then execute the Notebook that will automatically spin up the spark cluster and provide you the necessary transformations. But before transformations, we have to provide necessary permissions for our workspace to conncet with storage account and once that is ensured, we then have to mount the data and start with our code.
 
 ![image](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/assets/29482753/48bf9652-3ce3-486b-aaf5-838d2bf64232)
 
+**Data Analytics** - We are then using Azure Synapse Analytics and created aggreagtions using SQL queries on the the transformed data. We are also creating external data sources, file formats and tables to study the data and gain insights from it and understand patterns. We can either do the analytics using Synapse SQL or Apache Spark Pool. Make you provide the necessary roles and permissions to your Synapse workspace that it can access storage account.
 
-DATA ANAYTICS - We are then using Azure Synapse Analytics
+![image](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/assets/29482753/e06ed0e7-1966-4e7f-9751-41a82123067f)
 
-VISUALISATIONS
+**Data Visualisation** : This is the last step where we are creating visualisations on top of our aggregated data. The reason we create charts and graphs is that these visualisations help business understand the data clearly and easily.
+
+![image](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/assets/29482753/27e09033-2f55-4445-9cc8-8a955377d2d8)
 
 # Data Architecture Flow Diagram
 
 ![image](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/assets/29482753/7cf41ae1-8d3a-4303-b9c0-ec7312314a50)
 
 # Data Sources and Visualisations
+
+
 
 # Pre-Requisites
 
