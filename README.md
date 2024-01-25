@@ -75,6 +75,10 @@ Visualisation 6: **totalAthletesbyDiscipline**
 Visualisation 7: **totalMedalsbyCountry**
 ![image](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/assets/29482753/4accaf0d-a189-4c6b-90a9-71f167291dba)
 
+Visualisation 8: **genderDistributionDifferencebyDiscipline**
+![image](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/assets/29482753/84b80ab5-1ace-4e84-a359-0c628e55eb9b)
+
+
 # Pre-Requisites
 
 1. You need to have an active Azure subscription to provision these required services.
