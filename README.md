@@ -3,11 +3,11 @@
 Welcome to the end to end Data Engineering project on Tokyo Olympics Data on Azure. This project is designed to showcase how various Azure services can be utilized and leveraged to perform ETL operations like data ingestion, data transformation and data analytics on this dataset. We have used the following Azure services to build this project and achieve the final goal.
 
 # Table of Contents
-1. Introduction to Azure Services
-2. [Project Overview](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/blob/b96887990ae380f95ee36eb88ce4f268224d8523/README.md?plain=1#L26) 
-3. Data Architecture Flow Diagram
-4. Data Sources & Visualisations
-5. PreRequisites
+1. [Introduction to Azure Services](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/blob/b96887990ae380f95ee36eb88ce4f268224d8523/README.md#introduction-to-azure-services-step-by-step)
+2. [Project Overview](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/blob/b96887990ae380f95ee36eb88ce4f268224d8523/README.md#project-overiew) 
+3. [Data Architecture Flow Diagram]([url](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/blob/b96887990ae380f95ee36eb88ce4f268224d8523/README.md#data-architecture-flow-diagram))
+4. [Data Sources & Visualisations]([url](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/tree/main?tab=readme-ov-file#data-sources-and-visualisations))
+5. [Pre-Requisites]([url](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/tree/main?tab=readme-ov-file#pre-requisites))
 
 # Introduction to Azure Services (Step by Step)
 **Azure Data Factory**: Azure Data Factory (ADF) is a fully managed, serverless data integration solution for ingesting, preparing, and transforming all your data at scale. In this project we are using the ADF to ingest data from our data sources that are .csv files from web(https). We are using the copy data activity in Azure Data Factory to move our data from source (.csv files) to sink (Azure Data Lake Storage Gen2). 
@@ -54,25 +54,25 @@ Welcome to the end to end Data Engineering project on Tokyo Olympics Data on Azu
 Data Source
 ![image](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/assets/29482753/254341f1-f5e1-4dce-acb5-b7103c91a0ef)
 
-Visualisation 1: ageAnalysisOfAthletesbyDiscipline
+Visualisation 1: **ageAnalysisOfAthletesbyDiscipline**
 ![image](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/assets/29482753/2eabc000-3a4d-43ff-bca3-823b254f8e78)
 
-Visualisation 2: averageEntriesGenderbyDiscipline
+Visualisation 2: **averageEntriesGenderbyDiscipline**
 ![image](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/assets/29482753/80e39333-21c3-4926-870d-43c40b4d6a0b)
 
-Visualisation 3: coachWithMultipleEvents
+Visualisation 3: **coachWithMultipleEvents**
 ![image](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/assets/29482753/c414c0e7-e9fa-44ba-9361-447760495255)
 
-Visualisation 4: performanceOfCountrybyOverallMedalsvsGoldMedals
+Visualisation 4: **performanceOfCountrybyOverallMedalsvsGoldMedals**
 ![image](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/assets/29482753/519f8398-cae5-48f7-9dbb-4ca6273fb4e9)
 
-Visualisation 5: totalAthletesByCountry
+Visualisation 5: **totalAthletesByCountry**
 ![image](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/assets/29482753/5ab03752-b514-48d5-a737-9ec8e3c3565c)
 
-Visualisation 6: totalAthletesbyDiscipline
+Visualisation 6: **totalAthletesbyDiscipline**
 ![image](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/assets/29482753/8800db4d-c202-48a7-9de2-5cda6a76dea3)
 
-Visualisation 7: totalMedalsbyCountry
+Visualisation 7: **totalMedalsbyCountry**
 ![image](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/assets/29482753/4accaf0d-a189-4c6b-90a9-71f167291dba)
 
 # Pre-Requisites
