@@ -4,7 +4,7 @@ Welcome to the end to end Data Engineering project on Tokyo Olympics Data on Azu
 
 # Table of Contents
 1. Introduction to Azure Services
-2. Project Overview 
+2. [Project Overview](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/blob/b96887990ae380f95ee36eb88ce4f268224d8523/README.md?plain=1#L26) 
 3. Data Architecture Flow Diagram
 4. Data Sources & Visualisations
 5. PreRequisites
