@@ -29,7 +29,7 @@ Welcome to the end to end Data Engineering project on Tokyo Olympics Data on Azu
 
 ![image](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/assets/29482753/87df4707-b2e9-44dc-afdb-382991cb4304)
 
-- **Data Storage** - This is the immediate step after our data ingestion. We configured our sink as Azure Data Lake Storage Gen2 where the data will come and load into raw-data folder and the data will be in the exact same format as the source. There are three layers build on the storage account for this project - bronze layer that will contain the data in its raw format, silver layer that will have the transformed data like refining schema, removing null and duplicates, altering table structures etc. and gold layer that will store all the aggregated data that is built on our transformed data from the silver layer. 
+- **Data Storage** - This is the immediate step after data ingestion. We configured our sink as Azure Data Lake Storage Gen2 where the data will come and load into raw-data folder and the data will be in the exact same format as the source. There are three layers build on the storage account for this project - bronze layer that will contain the data in its raw format, silver layer that will have the transformed data like refining schema, removing null and duplicates, altering table structures etc. and gold layer that will store all the aggregated data that is built on our transformed data from the silver layer. 
 
 ![image](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/assets/29482753/d7a0b572-0b28-4a50-877b-503fb15fdfe4)
 
