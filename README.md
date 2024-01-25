@@ -5,9 +5,9 @@ Welcome to the end to end Data Engineering project on Tokyo Olympics Data on Azu
 # Table of Contents
 1. [Introduction to Azure Services](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/blob/b96887990ae380f95ee36eb88ce4f268224d8523/README.md#introduction-to-azure-services-step-by-step)
 2. [Project Overview](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/blob/b96887990ae380f95ee36eb88ce4f268224d8523/README.md#project-overiew) 
-3. [Data Architecture Flow Diagram]([url](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/blob/b96887990ae380f95ee36eb88ce4f268224d8523/README.md#data-architecture-flow-diagram))
-4. [Data Sources & Visualisations]([url](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/tree/main?tab=readme-ov-file#data-sources-and-visualisations))
-5. [Pre-Requisites]([url](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/tree/main?tab=readme-ov-file#pre-requisites))
+3. [Data Architecture Flow Diagram](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/blob/b96887990ae380f95ee36eb88ce4f268224d8523/README.md#data-architecture-flow-diagram))
+4. [Data Sources & Visualisations](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/tree/main?tab=readme-ov-file#data-sources-and-visualisations))
+5. [Pre-Requisites](https://github.com/gunjansingh21/ETL-Project-TokyoOlympicsData/tree/main?tab=readme-ov-file#pre-requisites))
 
 # Introduction to Azure Services (Step by Step)
 - **Azure Data Factory**: Azure Data Factory (ADF) is a fully managed, serverless data integration solution for ingesting, preparing, and transforming all your data at scale. In this project we are using the ADF to ingest data from our data sources that are .csv files from web(https). We are using the copy data activity in Azure Data Factory to move our data from source (.csv files) to sink (Azure Data Lake Storage Gen2). 
